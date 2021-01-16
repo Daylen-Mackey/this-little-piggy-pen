@@ -1,0 +1,26 @@
+Objective:
+
+Our project must be able to:
+
+    1) Capture an image of handwritten sentences to be "deciphered"
+    2) Translate the sentence from ciphertext to plain text.
+
+Means to achieve the goals with commentary:
+
+The first goal:
+
+    - Webcam connected to a computer 
+        -> Capturing images on a front facing webcam can be a pain. 
+        -> Since the webcam is connected to the computer building an application that will be relatively easy.
+
+    - Using a phone
+        -> Easier to capture images.
+        -> Seperate system so we will need a way connect the phone application to an application on the computer, or have the entire application on the phone.
+
+The second goal:
+    
+    - Sentence level translation
+
+    - Character level translation
+        -> Isolation of sentence and then characters
+        -> Character search in dictionary: O(n) max, O(1) min. Search by common letters can increase speed. 
